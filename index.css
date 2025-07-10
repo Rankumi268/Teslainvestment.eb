@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  padding: 20px;
+}
+
+.app {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #cc0000;
+}
+
+.coin-price {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+.tabs {
+  margin: 20px 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border: none;
+  background: #e82127;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notice {
+  margin: 20px 0;
+  color: #b10000;
+  font-weight: bold;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.plan-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
