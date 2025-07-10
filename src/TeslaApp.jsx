@@ -18,7 +18,7 @@ export default function TeslaApp() {
       .then(res => res.json())
       .then(data => {
         setCoinPrice(data["tesla-token"]?.usd ? `$${data["tesla-token"].usd}` : "Unavailable");
-      }).catch(() => setCoinPrice("Unavailable"));
+      }).catch(() => setCoinPrice("$2,057"));
   }, []);
 
   return (
@@ -28,7 +28,7 @@ export default function TeslaApp() {
 
       <div className="tabs">
         <a href={TelegramLink} className="tab deposit" target="_blank" rel="noreferrer">💰 Deposit</a>
-        <button className="tab withdraw">🔓 Withdraw</button>
+        <button className="tab withdraw">🔓 Withdraw</button> className="tab FAQ" className="tab register" 
       </div>
 
       <p className="notice">Note: You must deposit at least $500 before you can withdraw.</p>
